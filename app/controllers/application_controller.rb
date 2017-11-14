@@ -55,14 +55,12 @@ class ApplicationController < ActionController::Base
   end
 
   def four_class(hand)
-    #number_four = nil
     hand.each do |card|
       if hand.find_all {|c| c['number'] == card['number'] and c['suit'] != card['suit']}.size == 3
-        #number_four = card['number']
         return true
       end
     end
-    return false#number_four
+    return false
   end
 
   def straight_flush(hand)

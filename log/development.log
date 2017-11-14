@@ -1383,3 +1383,1631 @@ Processing by PokersController#index as HTML
 Completed 200 OK in 517ms (Views: 40.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-11-14 10:54:39 -0430
+  
+SyntaxError (/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:103: void value expression
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:103: syntax error, unexpected tINTEGER, expecting keyword_then or ';' or '\n'
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:105: void value expression
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:105: syntax error, unexpected tINTEGER, expecting keyword_end
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:107: void value expression
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:107: syntax error, unexpected tINTEGER, expecting keyword_end
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:109: void value expression
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:109: syntax error, unexpected tINTEGER, expecting keyword_end
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:111: void value expression
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:111: syntax error, unexpected tINTEGER, expecting keyword_end
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:113: void value expression
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:113: syntax error, unexpected tINTEGER, expecting keyword_end
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:116: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif pars(hand)
+         ^
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:118: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif pars(hand)
+         ^
+/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:124: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/application_controller.rb:103: void value expression
+app/controllers/application_controller.rb:103: syntax error, unexpected tINTEGER, expecting keyword_then or ';' or '\n'
+app/controllers/application_controller.rb:105: void value expression
+app/controllers/application_controller.rb:105: syntax error, unexpected tINTEGER, expecting keyword_end
+app/controllers/application_controller.rb:107: void value expression
+app/controllers/application_controller.rb:107: syntax error, unexpected tINTEGER, expecting keyword_end
+app/controllers/application_controller.rb:109: void value expression
+app/controllers/application_controller.rb:109: syntax error, unexpected tINTEGER, expecting keyword_end
+app/controllers/application_controller.rb:111: void value expression
+app/controllers/application_controller.rb:111: syntax error, unexpected tINTEGER, expecting keyword_end
+app/controllers/application_controller.rb:113: void value expression
+app/controllers/application_controller.rb:113: syntax error, unexpected tINTEGER, expecting keyword_end
+app/controllers/application_controller.rb:116: syntax error, unexpected keyword_elsif, expecting keyword_end
+app/controllers/application_controller.rb:118: syntax error, unexpected keyword_elsif, expecting keyword_end
+app/controllers/application_controller.rb:124: syntax error, unexpected keyword_end, expecting end-of-input
+app/controllers/pokers_controller.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2017-11-14 10:55:28 -0430
+Processing by PokersController#index as HTML
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:01:01 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 14003ms (Views: 521.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:03:36 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3046ms (Views: 42.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:03:53 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 881ms (Views: 50.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:11:13 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `before' for true:TrueClass):
+  
+activesupport (5.1.4) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.4) lib/active_support/callbacks.rb:177:in `block (2 levels) in halting_and_conditional'
+activesupport (5.1.4) lib/active_support/callbacks.rb:177:in `each'
+activesupport (5.1.4) lib/active_support/callbacks.rb:177:in `all?'
+activesupport (5.1.4) lib/active_support/callbacks.rb:177:in `block in halting_and_conditional'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.4) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:27:21 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `before' for true:TrueClass):
+  
+activesupport (5.1.4) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.4) lib/active_support/callbacks.rb:177:in `block (2 levels) in halting_and_conditional'
+activesupport (5.1.4) lib/active_support/callbacks.rb:177:in `each'
+activesupport (5.1.4) lib/active_support/callbacks.rb:177:in `all?'
+activesupport (5.1.4) lib/active_support/callbacks.rb:177:in `block in halting_and_conditional'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.4) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:27:32 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2491ms (Views: 36.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:27:40 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2701ms (Views: 40.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:27:46 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1729ms (Views: 38.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:35:48 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 875ms
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://services.comparaonline.com/dealer/deck/#{$token}/deal/5):
+  
+app/controllers/pokers_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:36:27 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 3307ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/pokers_controller.rb:8:in `+'
+app/controllers/pokers_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:37:16 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1837ms (Views: 38.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:37:29 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 887ms (Views: 41.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:40:34 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3022ms (Views: 52.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:40:43 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 693ms (Views: 39.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:40:50 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1062ms (Views: 42.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:41:00 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1464ms (Views: 55.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:42:43 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 4667ms (Views: 44.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:43:05 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2785ms (Views: 40.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:49:36 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3893ms (Views: 40.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:49:55 -0430
+Processing by PokersController#index as HTML
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:51:34 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2804ms (Views: 902.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:52:11 -0430
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:55:23 -0430
+Processing by PokersController#index as HTML
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:55:37 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1760ms (Views: 489.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:56:30 -0430
+Processing by PokersController#index as HTML
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:57:58 -0430
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:58:20 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4487ms (Views: 220.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:58:46 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4520ms (Views: 43.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:58:53 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4911ms (Views: 71.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:59:02 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1367ms (Views: 62.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:59:06 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 3487ms (Views: 81.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:59:10 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2646ms (Views: 57.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:59:14 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3052ms (Views: 38.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:59:18 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3207ms (Views: 41.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:59:22 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1916ms (Views: 38.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:59:25 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2975ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 11:59:29 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14993ms (Views: 37.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:01:36 -0430
+Processing by PokersController#index as HTML
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:02:20 -0430
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:03:44 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5530ms (Views: 209.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:03:53 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4541ms (Views: 40.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:04:00 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1213ms (Views: 89.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:04:03 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12781ms (Views: 46.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:04:19 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2167ms (Views: 80.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:04:23 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7372ms (Views: 66.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:08:57 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 1120ms
+
+
+  
+NameError (undefined local variable or method `get_hands' for #<PokersController:0x007f03766722a0>):
+  
+app/controllers/pokers_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:09:25 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6173ms (Views: 41.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:10:43 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 7428ms
+
+
+  
+ActionView::Template::Error (undefined method `+' for nil:NilClass):
+    26:           <% @mano1.each_with_index do |card,index| %>
+    27:             <tr>
+    28:               <th scope="row"><%= index + 1 %></th>
+    29:               <td><%= card[:number] + "-" + card[:suit] %></td>
+    30:             </tr>
+    31:           <% end %>
+    32:         </tbody>
+  
+app/views/pokers/index.html.erb:29:in `block in _app_views_pokers_index_html_erb__4277067251546351959_69826337599360'
+app/views/pokers/index.html.erb:26:in `_app_views_pokers_index_html_erb__4277067251546351959_69826337599360'
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:11:38 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8263ms (Views: 38.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:12:20 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5970ms (Views: 40.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:13:32 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 4002ms
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+    26:           <% @mano1.each_with_index do |card,index| %>
+    27:             <tr>
+    28:               <th scope="row"><%= index + 1 %></th>
+    29:               <td><%= card[:number] + "-" + card[:suit] %></td>
+    30:             </tr>
+    31:           <% end %>
+    32:         </tbody>
+  
+app/views/pokers/index.html.erb:29:in `[]'
+app/views/pokers/index.html.erb:29:in `block in _app_views_pokers_index_html_erb__4277067251546351959_31378500'
+app/views/pokers/index.html.erb:26:in `each'
+app/views/pokers/index.html.erb:26:in `each_with_index'
+app/views/pokers/index.html.erb:26:in `_app_views_pokers_index_html_erb__4277067251546351959_31378500'
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:13:48 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 5605ms
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+    26:           <% @mano1.each_with_index do |card,index| %>
+    27:             <tr>
+    28:               <th scope="row"><%= index + 1 %></th>
+    29:               <td><%= card[:number] + "-" + card[:suit] %></td>
+    30:             </tr>
+    31:           <% end %>
+    32:         </tbody>
+  
+app/views/pokers/index.html.erb:29:in `block in _app_views_pokers_index_html_erb__4277067251546351959_69826473555840'
+app/views/pokers/index.html.erb:26:in `each'
+app/views/pokers/index.html.erb:26:in `each_with_index'
+app/views/pokers/index.html.erb:26:in `_app_views_pokers_index_html_erb__4277067251546351959_69826473555840'
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:14:16 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5918ms
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+    26:           <% @mano1.each_with_index do |card,index| %>
+    27:             <tr>
+    28:               <th scope="row"><%= index + 1 %></th>
+    29:               <td><%= card[:number] + "-" + card[:suit] %></td>
+    30:             </tr>
+    31:           <% end %>
+    32:         </tbody>
+  
+app/views/pokers/index.html.erb:29:in `block in _app_views_pokers_index_html_erb__4277067251546351959_34639580'
+app/views/pokers/index.html.erb:26:in `each'
+app/views/pokers/index.html.erb:26:in `each_with_index'
+app/views/pokers/index.html.erb:26:in `_app_views_pokers_index_html_erb__4277067251546351959_34639580'
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:14:33 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 12193ms
+
+
+  
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007f0372560cd0>):
+    23:           </tr>
+    24:         </thead>
+    25:         <tbody>
+    26:           <% @mano1.each_with_index do |card,index| %>
+    27:             <tr>
+    28:               <th scope="row"><%= index + 1 %></th>
+    29:               <td><%= card[:number] + "-" + card[:suit] %></td>
+  
+app/views/pokers/index.html.erb:26:in `_app_views_pokers_index_html_erb__4277067251546351959_69826389875600'
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:16:12 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6596ms (Views: 45.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:17:09 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5035ms (Views: 41.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:17:33 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5807ms (Views: 42.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:18:23 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5708ms (Views: 40.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:18:43 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 9792ms
+
+
+  
+ActionView::Template::Error (undefined method `+' for nil:NilClass):
+    45:           <% @mano2.each_with_index do |card,index| %>
+    46:             <tr>
+    47:               <th scope="row"><%= index + 1 %></th>
+    48:               <td><%= card['number'] + '-' +  card['suit'] %></td>
+    49:             </tr>
+    50:           <% end %>
+    51:         </tbody>
+  
+app/views/pokers/index.html.erb:48:in `block in _app_views_pokers_index_html_erb__4277067251546351959_69826471815520'
+app/views/pokers/index.html.erb:45:in `each'
+app/views/pokers/index.html.erb:45:in `each_with_index'
+app/views/pokers/index.html.erb:45:in `_app_views_pokers_index_html_erb__4277067251546351959_69826471815520'
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:19:20 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9175ms (Views: 56.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:19:52 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6017ms (Views: 41.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:27:37 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4925ms (Views: 48.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 12:28:59 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2513ms (Views: 50.3ms)
+
+
+Started GET "/erter" for 127.0.0.1 at 2017-11-14 13:50:56 -0430
+  
+ActionController::RoutingError (No route matches [GET] "/erter"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-14 13:52:08 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10926ms (Views: 222.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 13:52:48 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4931ms (Views: 49.4ms)
+
+
+Started GET "/restart_game" for 127.0.0.1 at 2017-11-14 13:52:57 -0430
+Processing by PokersController#shuffle as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/pokers_controller.rb:34:in `+'
+app/controllers/pokers_controller.rb:34:in `get_hand'
+app/controllers/pokers_controller.rb:5:in `index'
+app/controllers/pokers_controller.rb:14:in `shuffle'
+Started GET "/" for 127.0.0.1 at 2017-11-14 13:53:29 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6381ms (Views: 70.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 13:54:07 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6648ms (Views: 81.0ms)
+
+
+Started GET "/restart_game" for 127.0.0.1 at 2017-11-14 13:54:21 -0430
+Processing by PokersController#shuffle as HTML
+Redirected to 
+Completed 500 Internal Server Error in 20287ms
+
+
+  
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  
+app/controllers/pokers_controller.rb:15:in `shuffle'
+Started GET "/" for 127.0.0.1 at 2017-11-14 13:55:08 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7721ms (Views: 40.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 13:55:18 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3616ms (Views: 37.8ms)
+
+
+Started GET "/restart_game" for 127.0.0.1 at 2017-11-14 13:55:28 -0430
+Processing by PokersController#shuffle as HTML
+Redirected to 
+Completed 500 Internal Server Error in 783ms
+
+
+  
+NoMethodError (undefined method `index_url' for #<PokersController:0x007f27a40553c0>):
+  
+app/controllers/pokers_controller.rb:15:in `shuffle'
+Started GET "/restart_gameasd" for 127.0.0.1 at 2017-11-14 13:55:41 -0430
+  
+ActionController::RoutingError (No route matches [GET] "/restart_gameasd"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-14 13:56:11 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10467ms (Views: 37.6ms)
+
+
+Started GET "/restart_game" for 127.0.0.1 at 2017-11-14 13:56:26 -0430
+Processing by PokersController#shuffle as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 902ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 13:56:27 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2712ms (Views: 57.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 13:59:19 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 6724ms (Views: 57.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:01:44 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 3797ms
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/application_controller.rb:94:in `[]'
+app/controllers/application_controller.rb:94:in `royal_flush'
+app/controllers/application_controller.rb:102:in `qualification'
+app/controllers/pokers_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:02:38 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6189ms (Views: 37.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:04:26 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 11224ms (Views: 43.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:06:35 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 9581ms
+
+
+  
+ArgumentError (comparison of Fixnum with nil failed):
+  
+app/controllers/application_controller.rb:33:in `sort!'
+app/controllers/application_controller.rb:33:in `direct'
+app/controllers/application_controller.rb:112:in `qualification'
+app/controllers/pokers_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:10:18 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 8018ms
+
+
+  
+NoMethodError (undefined method `push' for #<PokersController:0x007f27a8651220>):
+  
+app/controllers/application_controller.rb:85:in `royal_flush'
+app/controllers/application_controller.rb:103:in `qualification'
+app/controllers/pokers_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:11:00 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 13329ms
+
+
+  
+ArgumentError (comparison of Fixnum with nil failed):
+  
+app/controllers/application_controller.rb:33:in `sort!'
+app/controllers/application_controller.rb:33:in `direct'
+app/controllers/application_controller.rb:113:in `qualification'
+app/controllers/pokers_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:11:18 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 7056ms
+
+
+  
+ArgumentError (comparison of NilClass with 1 failed):
+  
+app/controllers/application_controller.rb:33:in `sort!'
+app/controllers/application_controller.rb:33:in `direct'
+app/controllers/application_controller.rb:114:in `qualification'
+app/controllers/pokers_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:13:37 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 6235ms
+
+
+  
+ArgumentError (comparison of Fixnum with nil failed):
+  
+app/controllers/application_controller.rb:33:in `sort!'
+app/controllers/application_controller.rb:33:in `direct'
+app/controllers/application_controller.rb:115:in `qualification'
+app/controllers/pokers_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:15:43 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5530ms (Views: 48.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:19:34 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7340ms (Views: 51.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:20:54 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5037ms (Views: 43.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:21:06 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4979ms (Views: 41.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:21:58 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8214ms (Views: 45.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:22:09 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5797ms (Views: 53.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:22:39 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4175ms (Views: 42.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:22:47 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10894ms (Views: 38.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:23:13 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10205ms (Views: 34.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:23:30 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13959ms (Views: 45.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:26:14 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10380ms (Views: 41.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:26:30 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4665ms (Views: 46.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:26:51 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3624ms (Views: 35.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:26:57 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5572ms (Views: 49.3ms)
+
+
+Started GET "/restart_game" for 127.0.0.1 at 2017-11-14 14:27:05 -0430
+Processing by PokersController#shuffle as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 7820ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:27:12 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8528ms (Views: 40.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:29:03 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9288ms (Views: 40.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:29:17 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6102ms (Views: 38.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:29:45 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10628ms (Views: 45.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:30:07 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16856ms (Views: 41.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:30:55 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6372ms (Views: 83.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:31:08 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4767ms (Views: 38.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:31:26 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 4842ms (Views: 41.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:31:52 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 12841ms
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/application_controller.rb:35:in `[]'
+app/controllers/application_controller.rb:35:in `direct'
+app/controllers/application_controller.rb:113:in `qualification'
+app/controllers/pokers_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:36:00 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 12587ms
+
+
+  
+ArgumentError (comparison of NilClass with 6 failed):
+  
+app/controllers/application_controller.rb:33:in `sort!'
+app/controllers/application_controller.rb:33:in `direct'
+app/controllers/application_controller.rb:113:in `qualification'
+app/controllers/pokers_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:37:46 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 18871ms
+
+
+  
+ArgumentError (comparison of NilClass with 1 failed):
+  
+app/controllers/application_controller.rb:33:in `sort!'
+app/controllers/application_controller.rb:33:in `direct'
+app/controllers/application_controller.rb:113:in `qualification'
+app/controllers/pokers_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:38:40 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 11099ms
+
+
+  
+ArgumentError (comparison of Fixnum with nil failed):
+  
+app/controllers/application_controller.rb:35:in `sort!'
+app/controllers/application_controller.rb:35:in `direct'
+app/controllers/application_controller.rb:115:in `qualification'
+app/controllers/pokers_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:39:25 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 6474ms
+
+
+  
+ArgumentError (comparison of Fixnum with nil failed):
+  
+app/controllers/application_controller.rb:37:in `sort!'
+app/controllers/application_controller.rb:37:in `direct'
+app/controllers/application_controller.rb:117:in `qualification'
+app/controllers/pokers_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:41:00 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 7628ms
+
+
+  
+ArgumentError (comparison of Fixnum with nil failed):
+  
+app/controllers/application_controller.rb:37:in `sort!'
+app/controllers/application_controller.rb:37:in `direct'
+app/controllers/application_controller.rb:117:in `qualification'
+app/controllers/pokers_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:42:03 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 13191ms
+
+
+  
+ArgumentError (comparison of NilClass with 7 failed):
+  
+app/controllers/application_controller.rb:38:in `sort!'
+app/controllers/application_controller.rb:38:in `direct'
+app/controllers/application_controller.rb:118:in `qualification'
+app/controllers/pokers_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:42:33 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 11782ms
+
+
+  
+ArgumentError (comparison of NilClass with 4 failed):
+  
+app/controllers/application_controller.rb:38:in `sort!'
+app/controllers/application_controller.rb:38:in `direct'
+app/controllers/application_controller.rb:118:in `qualification'
+app/controllers/pokers_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:45:30 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 17512ms
+
+
+  
+ArgumentError (comparison of String with nil failed):
+  
+app/controllers/application_controller.rb:38:in `sort!'
+app/controllers/application_controller.rb:38:in `direct'
+app/controllers/application_controller.rb:119:in `qualification'
+app/controllers/pokers_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:46:31 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 9122ms
+
+
+  
+ArgumentError (comparison of NilClass with 3 failed):
+  
+app/controllers/application_controller.rb:37:in `sort!'
+app/controllers/application_controller.rb:37:in `direct'
+app/controllers/application_controller.rb:118:in `qualification'
+app/controllers/pokers_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:47:22 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 5629ms
+
+
+  
+ArgumentError (comparison of NilClass with 6 failed):
+  
+app/controllers/application_controller.rb:37:in `sort!'
+app/controllers/application_controller.rb:37:in `direct'
+app/controllers/application_controller.rb:118:in `qualification'
+app/controllers/pokers_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:48:27 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 6242ms
+
+
+  
+ArgumentError (comparison of Fixnum with nil failed):
+  
+app/controllers/application_controller.rb:38:in `sort!'
+app/controllers/application_controller.rb:38:in `direct'
+app/controllers/application_controller.rb:119:in `qualification'
+app/controllers/pokers_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:50:28 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 10052ms
+
+
+  
+ArgumentError (comparison of Fixnum with nil failed):
+  
+app/controllers/application_controller.rb:38:in `sort!'
+app/controllers/application_controller.rb:38:in `direct'
+app/controllers/application_controller.rb:119:in `qualification'
+app/controllers/pokers_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:50:54 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10082ms (Views: 43.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:51:38 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13665ms (Views: 39.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:51:57 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5877ms (Views: 50.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:52:10 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 6700ms (Views: 39.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:53:27 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5618ms (Views: 49.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:53:38 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10989ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:54:57 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18724ms (Views: 41.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 14:55:26 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4491ms (Views: 38.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:01:55 -0430
+  
+SyntaxError (/home/wilson/Escritorio/poker/app/controllers/application_controller.rb:125: syntax error, unexpected keyword_end, expecting ']'):
+  
+app/controllers/application_controller.rb:125: syntax error, unexpected keyword_end, expecting ']'
+app/controllers/pokers_controller.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:02:06 -0430
+  
+SyntaxError (/home/wilson/Escritorio/poker/app/controllers/pokers_controller.rb:63: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/pokers_controller.rb:63: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:02:29 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7755ms (Views: 39.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:07:00 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5786ms (Views: 49.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:08:07 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7079ms (Views: 41.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:08:37 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7516ms (Views: 37.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:20:28 -0430
+Processing by PokersController#index as HTML
+Completed 500 Internal Server Error in 8202ms
+
+
+  
+NameError (undefined local variable or method `order' for #<PokersController:0x007f27ae1cbda8>):
+  
+app/controllers/application_controller.rb:130:in `block in search_card_max'
+app/controllers/application_controller.rb:129:in `search_card_max'
+app/controllers/pokers_controller.rb:15:in `index'
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:21:17 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 8875ms (Views: 46.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:21:39 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5604ms (Views: 54.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:21:47 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 7570ms (Views: 51.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:23:09 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12314ms (Views: 54.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:23:39 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 11813ms (Views: 69.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:25:41 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12620ms (Views: 46.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:26:43 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8648ms (Views: 44.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:27:48 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10342ms (Views: 44.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:29:19 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9814ms (Views: 49.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:30:21 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6534ms (Views: 44.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:30:34 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3304ms (Views: 46.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:30:45 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 13006ms (Views: 48.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:40:49 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 11523ms (Views: 45.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:42:05 -0430
+Processing by PokersController#index as HTML
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:42:38 -0430
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39684ms (Views: 48.2ms)
+
+
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13589ms (Views: 40.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:43:30 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3729ms (Views: 42.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:43:44 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9680ms (Views: 43.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:44:11 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12221ms (Views: 51.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:44:33 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12497ms (Views: 53.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:44:55 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14678ms (Views: 43.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:45:15 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 6929ms (Views: 57.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:45:39 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5679ms (Views: 44.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:45:50 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8720ms (Views: 35.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:46:05 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 13660ms (Views: 42.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:46:26 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14399ms (Views: 43.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:46:47 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14497ms (Views: 54.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:47:10 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9837ms (Views: 43.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:48:51 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12249ms (Views: 46.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:49:07 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9438ms (Views: 45.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:49:26 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3269ms (Views: 44.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:49:36 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 9515ms (Views: 49.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:49:48 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8346ms (Views: 41.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:50:00 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12972ms (Views: 47.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:51:17 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11560ms (Views: 48.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:52:17 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 25950ms (Views: 63.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:53:43 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 22369ms (Views: 69.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:54:45 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24440ms (Views: 44.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:55:24 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 10920ms (Views: 250.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:59:09 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 10259ms (Views: 72.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:59:23 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4157ms (Views: 56.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 15:59:41 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 12787ms (Views: 86.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-14 16:00:16 -0430
+Processing by PokersController#index as HTML
+  Rendering pokers/index.html.erb within layouts/application
+  Rendered pokers/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 7198ms (Views: 87.8ms)
+
+
